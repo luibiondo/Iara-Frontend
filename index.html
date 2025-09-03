@@ -4,183 +4,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>IARA | Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/main.css">
 </head>
 
 <body>
     <header class="header">
-        <img src="assets/IARA - Imagens Landing/Logo/logo.png" alt="Logo IARA">
-        <ol class="cabecalho">
-            <li class="paginas"><a href="index.html">Home</a></li>
-            <li class="paginas"><a href="sobre.html">Sobre Nós</a></li>
-            <li class="paginas"><a href="instrucoes.html">Instruções</a></li>
-        </ol>
-        <button type="button">Entrar</button>
+        <nav id="navbar">
+            <img src="assets/IARA - Imagens Landing/Logo/logo.png" alt="Logo IARA">
+
+            <ul id="nav_list">
+                <li class="nav-item active"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="sobre.html">Sobre Nós</a></li>
+                <li class="nav-item"><a href="instrucoes.html">Instruções</a></li>
+            </ul>
+
+            <button class="btn-default">
+                Entrar
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="sobre.html">Sobre Nós</a></li>
+                <li class="nav-item"><a href="instrucoes.html">Instruções</a></li>
+            </ul>
+
+            <button class="btn-default">Entrar</button>
+        </div>
     </header>
 
-    <section class="introducao">
-        <div class="caixa-introducao">
-            <h1>Transforme Dados em Decisões Inteligentes</h1>
-            <p>IARA automatiza a leitura de ábacos e gera planilhas em segundos, otimizando tempo e reduzindo erros no
-                setor alimentício.</p>
-            <button type="button">Comece Agora</button>
-        </div>
-        <div class="imagem-celulares">
-            <img src="assets/IARA - Imagens Landing/Home/celulares-juntos.png"
-                alt="Celulares com imagens relacionadas ao APP">
-        </div>
-    </section>
-
-    <section class="funcionalidades">
-        <div class="imagem-celular-mulher"><img src="assets/IARA - Imagens Landing/Home/celular-mulher-com-fundo.png"
-                alt="Celular com a imagem de uma mulher com a legenda: Automatize sua contagem com uma foto"></div>
-
-        <div class="caixa-funcionalidades">
-            <p class="titulos-sections">Funcionalidades</p>
-            <h2>O que o IARA faz?</h2>
-
-            <div class="topico">
-                <img src="assets/IARA - Imagens Landing/Topicos/star.png" alt="Estrela">
-                <h3>Leitura Automática de Ábacos</h3>
-                <p>Transforma imagens de ábacos industriais em dados estruturados usando visão computacional, reduzindo
-                    erros.</p>
+    <main>
+        <section id="introducao">
+            <div class="texto">
+                <h1 class="title">Transforme Dados em Decisões Inteligentes</h1>
+                <p>IARA automatiza a leitura de ábacos e gera planilhas em segundos, otimizando tempo e reduzindo erros no
+                    setor alimentício.</p>
+                <button id="btn-principal">Comece Agora</button>
             </div>
-
-            <div class="topico">
-                <img src="assets/IARA - Imagens Landing/Topicos/cube-01.png" alt="Cubo">
-                <h3>Geração Instantânea de Planilhas</h3>
-                <p>Cria planilhas formatadas automaticamente com base nas imagens processadas, prontas para uso em
-                    relatórios técnicos e auditorias do SIF.</p>
+            <div class="imagem">
+                <img src="assets/IARA - Imagens Landing/Home/celulares-juntos.png" alt="Celulares com imagens do APP">
             </div>
-
-            <div class="topico">
-                <img src="assets/IARA - Imagens Landing/Topicos/cube-02.png" alt="Tópicos">
-                <h3>Análise de Conformidade em Tempo Real</h3>
-                <p>Identifica padrões fora do esperado nos dados capturados e sinaliza inconsistências antes da geração
-                    final, garantindo mais controle e qualidade.</p>
+        </section>
+    
+        <section class="funcionalidades">
+            <div class="imagem">
+                <img src="assets/IARA - Imagens Landing/Home/celular-mulher-com-fundo.png"
+                    alt="Automatize sua contagem com uma foto">
             </div>
+            <div class="conteudo">
+                <p class="subtitulo">Funcionalidades</p>
+                <h2>O que o IARA faz?</h2>
+    
+                <div class="topico">
+                    <img src="assets/IARA - Imagens Landing/Topicos/star.png" alt="">
+                    <div>
+                        <h3>Leitura Automática de Ábacos</h3>
+                        <p>Transforma imagens de ábacos industriais em dados estruturados usando visão computacional.</p>
+                    </div>
+                </div>
+    
+                <div class="topico">
+                    <img src="assets/IARA - Imagens Landing/Topicos/cube-01.png" alt="">
+                    <div>
+                        <h3>Geração Instantânea de Planilhas</h3>
+                        <p>Cria planilhas formatadas automaticamente, prontas para relatórios técnicos e auditorias.</p>
+                    </div>
+                </div>
+    
+                <div class="topico">
+                    <img src="assets/IARA - Imagens Landing/Topicos/cube-02.png" alt="">
+                    <div>
+                        <h3>Análise de Conformidade em Tempo Real</h3>
+                        <p>Identifica inconsistências antes da geração final, garantindo controle e qualidade.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="vantagens">
+            <div class="bloco">
+                <p class="subtitulo">Vantagens</p>
+                <h2>Por que escolher o IARA?</h2>
+                <img src="assets/IARA - Imagens Landing/Topicos/sino.png" alt="">
+                <h3>Agilidade Operacional</h3>
+                <p>O IARA reduz drasticamente o tempo de registro e envio de dados, liberando a equipe para tarefas mais
+                    estratégicas.</p>
+            </div>
+    
+            <div class="imagem">
+                <img src="assets/IARA - Imagens Landing/Home/celular-tire-foto.png" alt="Tire uma boa foto do ábaco">
+            </div>
+    
+            <div class="imagem">
+                <img src="assets/IARA - Imagens Landing/Home/celular-homem-grafico.png" alt="Transformando em dados">
+            </div>
+    
+            <div class="bloco">
+                <img src="assets/IARA - Imagens Landing/Topicos/star-02.png" alt="">
+                <h3>Precisão e Confiabilidade</h3>
+                <p>Ao eliminar o fator humano, os dados ficam corretos e seguros em auditorias.</p>
+            </div>
+        </section>
+    
+        <section class="faq">
+            <p class="subtitulo">FAQ</p>
+            <h2>Dúvidas Frequentes</h2>
+    
+            <div class="pergunta">
+                <h3>O que é o IARA?</h3>
+                <p>É um app que automatiza a leitura de ábacos industriais através de visão computacional.</p>
+            </div>
+    
+            <div class="pergunta">
+                <h3>Preciso de internet para usar?</h3>
+                <p>Sim, para gerar planilhas e acessar o dashboard online.</p>
+            </div>
+    
+            <div class="pergunta">
+                <h3>Quais tipos de ábacos ele reconhece?</h3>
+                <p>Modelos padrão utilizados na evisceração (SIF), mas pode ser ajustado para outros setores.</p>
+            </div>
+        </section>
+    
+        <section class="cta">
+            <div class="texto">
+                <h2>Pronto para automatizar seus dados industriais?</h2>
+                <button class="btn-principal">Em Breve</button>
+            </div>
+            <div class="imagem">
+                <img src="assets/IARA - Imagens Landing/Home/celulares-juntos.png" alt="Celulares com app IARA">
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="coluna">
+            <img src="assets/IARA - Imagens Landing/Logo/logo.png" alt="Logo IARA">
+            <p><img src="assets/IARA - Imagens Landing/Footer/email.png" alt=""> iaratech.oficial@gmail.com</p>
+            <p><img src="assets/IARA - Imagens Landing/Footer/phone.png" alt=""> +55 11 99980-5253</p>
+            <p><img src="assets/IARA - Imagens Landing/Footer/instagram.png" alt=""> @iaratech.oficial</p>
         </div>
-    </section>
 
-    <section class="vantagens">
-        <div class="caixa-vantagens1">
-            <p>Vantagens</p>
-            <h2>Por que escolher o IARA?</h2>
-
-            <img src="assets/IARA - Imagens Landing/Topicos/sino.png" alt="Sino">
-            <h3>Agilidade Operacional</h3>
-            <p>O IARA reduz drasticamente o tempo necessário para registrar, organizar e enviar os dados coletados nos
-                ábacos. O que antes levava minutos (ou até horas) de digitação manual e dupla conferência, agora é feito
-                em segundos com precisão, liberando a equipe para tarefas mais estratégicas.</p>
-        </div>
-
-        <div class="imagem-celular-foto"><img src="assets/IARA - Imagens Landing/Home/celular-tire-foto.png"
-                alt="Celular com outro celular tirando foto na tela com a legenda: Tire uma boa foto do ábaco"></div>
-
-        <div class="imagem-celular-homem"><img src="assets/IARA - Imagens Landing/Home/celular-homem-grafico.png"
-                alt="Celular com homem e gráfico no fundo com a legenda: Transformando em dados"></div>
-
-        <div class="caixa-vantagens2">
-            <img src="assets/IARA - Imagens Landing/Topicos/star-02.png" alt="Estrela 2">
-            <h3>Precisão e Confiabilidade nos Dados</h3>
-            <p>Ao eliminar o fator humano na leitura e transcrição dos números, o IARA reduz erros comuns e garante que
-                os dados enviados aos relatórios estejam corretos. Isso significa mais segurança em auditorias e maior
-                conformidade com os padrões do SIF.</p>
-        </div>
-    </section>
-
-    <section class="FAQ">
-        <p>FAQ</p>
-        <h2>Dúvidas Frequentes</h2>
-
-        <div class="caixa-FAQ1">
-            <h3>O que é o IARA?</h3>
-            <p>É um app que automatiza a leitura de ábacos industriais através de visão computacional.</p>
-        </div>
-
-        <div class="caixa-FAQ2">
-            <h3>Preciso de internet para usar?</h3>
-            <p>Sim, para gerar planilhas e acessar o dashboard online.</p>
-        </div>
-
-        <div class="caixa-FAQ3">
-            <h3>Quais tipos de ábacos ele reconhece?</h3>
-            <p>Modelos padrão utilizados na evisceração (SIF), mas pode ser ajustado para outros setores.</p>
-        </div>
-
-        <div class="caixa-FAQ4">
-            <h3>O que é o IARA?</h3>
-            <p>É um app que automatiza a leitura de ábacos industriais através de visão computacional.</p>
-        </div>
-
-        <div class="caixa-FAQ5">
-            <h3>Preciso de internet para usar?</h3>
-            <p>Sim, para gerar planilhas e acessar o dashboard online.</p>
-        </div>
-
-        <div class="caixa-FAQ6">
-            <h3>Quais tipos de ábacos ele reconhece?</h3>
-            <p>Modelos padrão utilizados na evisceração (SIF), mas pode ser ajustado para outros setores.</p>
-        </div>
-    </section>
-
-    <section class="EmBreve">
-        <div class="caixa-EmBreve">
-            <h2>Pronto para automatizar seus dados industriais?</h2>
-            <button type="button">Em Breve</button>
-        </div>
-
-        <div class="imagem-celulares">
-            <img src="assets/IARA - Imagens Landing/Home/celulares-juntos.png"
-                alt="Celulares com imagens relaciomnadas ao APP">
-        </div>
-    </section>
-
-    <section class="footer">
-        <div class="coluna1">
+        <div class="coluna">
+            <h2>Links</h2>
             <ul>
-                <li><img src="assets/IARA - Imagens Landing/Logo/logo.png" alt="Logo IARA"></li>
-                <li><img src="assets/IARA - Imagens Landing/Footer/email.png" alt="ícone email">
-                    <p>iaratech.oficial@gmail.com</p>
-                </li>
-                <li><img src="assets/IARA - Imagens Landing/Footer/phone.png" alt="ícone telefone">
-                    <p>+55 11 99980-5253</p>
-                </li>
-                <li><img src="assets/IARA - Imagens Landing/Footer/instagram.png" alt="ícone instagram">
-                    <p>iaratech.oficial</p>
-                </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="instrucoes.html">Instruções</a></li>
             </ul>
         </div>
 
-        <div class="coluna2">
+        <div class="coluna">
+            <h2>Legal</h2>
             <ul>
-                <li>
-                    <h2>Links</h2>
-                </li>
-                <li>Home</li>
-                <li>Sobre Nós</li>
-                <li>Instruções</li>
-            </ul>
-        </div>
-
-        <div class="Coluna3">
-            <ul>
-                <li>
-                    <h2>Legal</h2>
-                </li>
-                <li>Termos De Uso</li>
-                <li>Política De Privacidade</li>
-                <li>Política De Cookies</li>
+                <li><a href="#">Termos de Uso</a></li>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">Política de Cookies</a></li>
             </ul>
         </div>
 
         <hr>
+        <p class="direitos">Todos os Direitos Reservados | IARA - 2025</p>
+    </footer>
 
-        <div class="DireitosReservados">
-            <p>Todos os Direitos Reservados | IARA - 2025</p>
-        </div>
-    </section>
-
+    <script src="src/javascript/script.js"></script>
 </body>
 
 </html>
