@@ -9,7 +9,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="src/styles/style.css">
     <link rel="stylesheet" href="src/styles/header.css">
-    <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="stylesheet" href="src/styles/main1.css">
+    <link rel="stylesheet" href="src/styles/footer.css">
 </head>
 
 <body>
@@ -147,34 +148,45 @@
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="coluna">
-            <img src="assets/IARA - Imagens Landing/Logo/logo.png" alt="Logo IARA">
-            <p><img src="assets/IARA - Imagens Landing/Footer/email.png" alt=""> iaratech.oficial@gmail.com</p>
-            <p><img src="assets/IARA - Imagens Landing/Footer/phone.png" alt=""> +55 11 99980-5253</p>
-            <p><img src="assets/IARA - Imagens Landing/Footer/instagram.png" alt=""> @iaratech.oficial</p>
+    <footer id="footer">
+        <div id="todas_colunas">
+            <div class="coluna">
+                <img src="assets/IARA - Imagens Landing/Logo/logo.png" alt="Logo IARA">
+                <ul>
+                    <li>
+                        <a href=""><img src="assets/IARA - Imagens Landing/Footer/email.png" alt="Email">iaratech.oficial@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/IARA - Imagens Landing/Footer/phone.png" alt="Telefone">+55 11 99980-5253</a>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/IARA - Imagens Landing/Footer/instagram.png" alt="Instagram">@iaratech.oficial</a>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="coluna">
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="instrucoes.html">Instruções</a></li>
+                </ul>
+            </div>
+    
+            <div class="coluna">
+                <h2>Legal</h2>
+                <ul>
+                    <li class=""><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Política de Cookies</a></li>
+                </ul>
+            </div>
         </div>
-
-        <div class="coluna">
-            <h2>Links</h2>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre Nós</a></li>
-                <li><a href="instrucoes.html">Instruções</a></li>
-            </ul>
+        <div id="direitos">
+            <hr>
+            <p class="direitos">Todos os Direitos Reservados | IARA - 2025</p>
         </div>
-
-        <div class="coluna">
-            <h2>Legal</h2>
-            <ul>
-                <li><a href="#">Termos de Uso</a></li>
-                <li><a href="#">Política de Privacidade</a></li>
-                <li><a href="#">Política de Cookies</a></li>
-            </ul>
-        </div>
-
-        <hr>
-        <p class="direitos">Todos os Direitos Reservados | IARA - 2025</p>
     </footer>
 
     <script src="src/javascript/script.js"></script>
