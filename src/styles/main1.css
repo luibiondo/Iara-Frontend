@@ -1,3 +1,4 @@
+/* INTRODUCTION */
 #introducao{
     display: flex;
     justify-content: space-between;
@@ -37,6 +38,8 @@
     height: 60px;
 }
 
+
+/* FEATURES */
 #funcionalidades {
     display: flex;
     justify-content: space-between;
@@ -93,18 +96,120 @@
 }
 
 .texto-funcionalidade {
-    font-size: 1.1rem;
+    font-size: 1.3rem;;
     color: #333333;
-    opacity: 0.7;
-    margin: 0;
-    padding-left: 45px;
-    line-height: 1.5;
+    opacity: 0.5;
 }
 
 .topico {
     margin-bottom: 30px;
 }
 
+
+/* ADVANTAGES */
+#vantagens {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 8%;
+    gap: 60px;
+    position: relative;
+}
+
+#vantagens .conteudo-vantagens {
+    flex: 1;
+}
+
+#vantagens .imagem-agilidade {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#vantagens .imagem img {
+    max-width: 100%;
+    height: auto;
+}
+
+#vantagens .topicos-vantagens {
+    flex: 1;
+}
+
+#vantagens .subtitulo {
+    color: #5991B3;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#vantagens h2 {
+    font-size: 2.2rem;
+    color: #12131A;
+    margin-bottom: 30px;
+}
+
+#vantagens .topico {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+#vantagens .topico img {
+    width: 28px;
+    height: 28px;
+}
+
+#vantagens .topico h3 {
+    font-size: 1.4rem;
+    color: #12131A;
+    margin: 0;
+}
+
+#vantagens .texto-vantagens {
+    font-size: 1.1rem;
+    color: #333333;
+    opacity: 0.8;
+    line-height: 1.6;
+    max-width: 500px;
+}
+
+#vantagens .imagem-vantagens {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#vantagens .titulo-topico {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+#vantagens .titulo-topico img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+#vantagens .titulo-topico h3 {
+    font-size: 1.5rem;
+    color: #12131A;
+    margin: 0;
+}
+
+.texto-vantagens {
+    font-size: 1.3rem;
+    color: #333333;
+    opacity: 0.5;
+}
+
+
+/* ANIMATIONS */
 #btn-principal:hover{
     background-color: #1a1f5f;
 }
