@@ -5,17 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IARA | Home</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="src/styles/style.css">
     <link rel="stylesheet" href="src/styles/header.css">
-    <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="stylesheet" href="src/styles/main1.css">
 </head>
 
 <body>
     <header class="header">
         <nav id="navbar">
-            <img src="assets/IARA - Imagens Landing/Logo/logo.png" alt="Logo IARA">
+            <img id="logo-iara" src="assets/IARA - Imagens Landing/Logo/logo-iara.png" alt="Logo IARA">
 
             <ul id="nav_list">
                 <li class="nav-item active"><a href="index.html">Home</a></li>
@@ -47,7 +51,8 @@
         <section id="introducao">
             <div class="texto">
                 <h1 class="title">Transforme Dados em Decisões Inteligentes</h1>
-                <p>IARA automatiza a leitura de ábacos e gera planilhas em segundos, otimizando tempo e reduzindo erros no
+                <p>IARA automatiza a leitura de ábacos e gera planilhas em segundos, otimizando tempo e reduzindo erros
+                    no
                     setor alimentício.</p>
                 <button id="btn-principal">Comece Agora</button>
             </div>
@@ -55,8 +60,8 @@
                 <img src="assets/IARA - Imagens Landing/Home/celulares-juntos.png" alt="Celulares com imagens do APP">
             </div>
         </section>
-    
-        <section class="funcionalidades">
+
+        <section id="funcionalidades">
             <div class="imagem">
                 <img src="assets/IARA - Imagens Landing/Home/celular-mulher-com-fundo.png"
                     alt="Automatize sua contagem com uma foto">
@@ -64,34 +69,41 @@
             <div class="conteudo">
                 <p class="subtitulo">Funcionalidades</p>
                 <h2>O que o IARA faz?</h2>
-    
+
                 <div class="topico">
-                    <img src="assets/IARA - Imagens Landing/Topicos/star.png" alt="">
-                    <div>
+                    <div class="titulo-topico">
+                        <img src="assets/IARA - Imagens Landing/Topicos/star.png" alt="">
                         <h3>Leitura Automática de Ábacos</h3>
-                        <p>Transforma imagens de ábacos industriais em dados estruturados usando visão computacional.</p>
+                    </div>
+                    <div>
+                        <p class="texto-funcionalidade">Transforma imagens de ábacos industriais em dados estruturados usando visão computacional.
+                        </p>
                     </div>
                 </div>
-    
+
                 <div class="topico">
-                    <img src="assets/IARA - Imagens Landing/Topicos/cube-01.png" alt="">
-                    <div>
+                    <div class="titulo-topico">
+                        <img src="assets/IARA - Imagens Landing/Topicos/cube-01.png" alt="">
                         <h3>Geração Instantânea de Planilhas</h3>
-                        <p>Cria planilhas formatadas automaticamente, prontas para relatórios técnicos e auditorias.</p>
+                    </div>
+                    <div>
+                        <p class="texto-funcionalidade">Cria planilhas formatadas automaticamente, prontas para relatórios técnicos e auditorias.</p>
                     </div>
                 </div>
-    
+
                 <div class="topico">
-                    <img src="assets/IARA - Imagens Landing/Topicos/cube-02.png" alt="">
-                    <div>
+                    <div class="titulo-topico">
+                        <img src="assets/IARA - Imagens Landing/Topicos/cube-02.png" alt="">
                         <h3>Análise de Conformidade em Tempo Real</h3>
-                        <p>Identifica inconsistências antes da geração final, garantindo controle e qualidade.</p>
+                    </div>
+                    <div>
+                        <p class="texto-funcionalidade">Identifica inconsistências antes da geração final, garantindo controle e qualidade.</p>
                     </div>
                 </div>
             </div>
         </section>
-    
-        <section class="vantagens">
+
+        <section id="vantagens">
             <div class="bloco">
                 <p class="subtitulo">Vantagens</p>
                 <h2>Por que escolher o IARA?</h2>
@@ -100,42 +112,42 @@
                 <p>O IARA reduz drasticamente o tempo de registro e envio de dados, liberando a equipe para tarefas mais
                     estratégicas.</p>
             </div>
-    
+
             <div class="imagem">
                 <img src="assets/IARA - Imagens Landing/Home/celular-tire-foto.png" alt="Tire uma boa foto do ábaco">
             </div>
-    
+
             <div class="imagem">
                 <img src="assets/IARA - Imagens Landing/Home/celular-homem-grafico.png" alt="Transformando em dados">
             </div>
-    
+
             <div class="bloco">
                 <img src="assets/IARA - Imagens Landing/Topicos/star-02.png" alt="">
                 <h3>Precisão e Confiabilidade</h3>
                 <p>Ao eliminar o fator humano, os dados ficam corretos e seguros em auditorias.</p>
             </div>
         </section>
-    
+
         <section class="faq">
             <p class="subtitulo">FAQ</p>
             <h2>Dúvidas Frequentes</h2>
-    
+
             <div class="pergunta">
                 <h3>O que é o IARA?</h3>
                 <p>É um app que automatiza a leitura de ábacos industriais através de visão computacional.</p>
             </div>
-    
+
             <div class="pergunta">
                 <h3>Preciso de internet para usar?</h3>
                 <p>Sim, para gerar planilhas e acessar o dashboard online.</p>
             </div>
-    
+
             <div class="pergunta">
                 <h3>Quais tipos de ábacos ele reconhece?</h3>
                 <p>Modelos padrão utilizados na evisceração (SIF), mas pode ser ajustado para outros setores.</p>
             </div>
         </section>
-    
+
         <section class="cta">
             <div class="texto">
                 <h2>Pronto para automatizar seus dados industriais?</h2>
@@ -149,7 +161,7 @@
 
     <footer class="footer">
         <div class="coluna">
-            <img src="assets/IARA - Imagens Landing/Logo/logo.png" alt="Logo IARA">
+            <img id="logo-iara" src="assets/IARA - Imagens Landing/Logo/logo-iara.png" alt="Logo IARA">
             <p><img src="assets/IARA - Imagens Landing/Footer/email.png" alt=""> iaratech.oficial@gmail.com</p>
             <p><img src="assets/IARA - Imagens Landing/Footer/phone.png" alt=""> +55 11 99980-5253</p>
             <p><img src="assets/IARA - Imagens Landing/Footer/instagram.png" alt=""> @iaratech.oficial</p>
