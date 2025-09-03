@@ -24,6 +24,11 @@
     opacity: 0.5;
 }
 
+#introducao .imagem img {
+    max-width: 80%;
+    height: auto;
+}
+
 #btn-principal{
     background-color: #2B3078;
     color: #FAFAFA;
