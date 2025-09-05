@@ -33,3 +33,7 @@ body{
 .btn-default:hover{
     background-color: #2d6689;
 }
+
+img{
+    user-select: none;
+}
