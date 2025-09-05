@@ -1,11 +1,11 @@
 /* INTRODUCTION */
-#introducao{
+#introducao {
     display: flex;
     justify-content: space-between;
     min-height: calc(507.4px - 102px);
 }
 
-.texto{
+.texto {
     width: 35%;
     display: flex;
     flex-direction: column;
@@ -14,13 +14,14 @@
     margin: auto;
 }
 
-#introducao h1{
+#introducao h1 {
     font-size: 3rem;
     color: #12131A;
+    opacity: 0.82;
 }
 
-#introducao p{
-    font-size: 1.3rem;;
+#introducao p {
+    font-size: 1.3rem;
     color: #333333;
     opacity: 0.5;
 }
@@ -30,7 +31,7 @@
     height: auto;
 }
 
-#btn-principal{
+#btn-principal {
     background-color: #2B3078;
     color: #FAFAFA;
     cursor: pointer;
@@ -96,7 +97,7 @@
 }
 
 .texto-funcionalidade {
-    font-size: 1.3rem;;
+    font-size: 1.3rem;
     color: #333333;
     opacity: 0.5;
 }
@@ -105,6 +106,78 @@
     margin-bottom: 30px;
 }
 
+.subtitulo{
+    color: #5991B3;
+    font-size: 1.2rem;
+}
+
+#faq h2{
+    color: #12131A;
+    font-size: 2.5rem;
+}
+
+#faq {
+    width: 70%;
+    margin: auto;
+}
+
+#colunas {
+    display: flex;
+    justify-content: space-around;
+}
+
+#primeiraColuna {
+    display: flex;
+    flex-direction: column;
+}
+
+#segundaColuna {
+    display: flex;
+    flex-direction: column;
+}
+
+.pergunta {
+    background-color: #1a1f5f;
+    border-radius: 5px;
+    margin: 20px 20px 0px 0px;
+    min-height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.branco {
+    background-color: #FAFAFA;
+}
+
+.branco h3 {
+    color: #12131A;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+
+}
+
+.branco p {
+    color: #000000;
+    opacity: 0.5;
+}
+
+.azul{
+    background-color: #5991B3;
+}
+
+.azul h3{
+    font-size: 1.6rem;
+    color: #FAFAFA;
+    margin-bottom: 10px;
+}
+
+.azul p{
+    color: #FAFAFA;
+}
 
 /* ADVANTAGES */
 #vantagens {
@@ -210,21 +283,21 @@
 
 
 /* ANIMATIONS */
-#btn-principal:hover{
+#btn-principal:hover {
     background-color: #1a1f5f;
 }
 
-@media screen and (max-width: 1170px){
-    #introducao{
+@media screen and (max-width: 1170px) {
+    #introducao {
         min-height: 100%;
         padding-top: 0px;
     }
 
-    .imagem{
+    .imagem {
         display: none;
     }
 
-    #btn-principal{
+    #btn-principal {
         width: 100%;
         align-items: center;
     }
