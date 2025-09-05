@@ -106,6 +106,8 @@
     margin-bottom: 30px;
 }
 
+/* FAQ */
+
 .subtitulo{
     color: #5991B3;
     font-size: 1.2rem;
@@ -280,6 +282,46 @@
     color: #333333;
     opacity: 0.5;
 }
+
+/* CTA */
+
+#cta{
+    display: flex;
+    justify-content: space-around;
+    background-color: #313131;
+    border-radius: 10px;
+    max-width: 70%;
+    min-height: 500px;
+    margin: auto;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+#cta img{
+    max-width: 100%;
+    height: auto;
+}
+
+#texto{
+    color: white;
+    font-size: 1.5rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 80px;
+}
+
+#cta .btn-principal{
+    background-color: #FAFAFA;
+    color: #000000;
+    cursor: pointer;
+    width: 34%;
+    height: 60px;
+    margin-top: 20px;
+}
+
 
 
 /* ANIMATIONS */
