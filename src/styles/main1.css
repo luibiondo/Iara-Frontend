@@ -181,7 +181,16 @@
 }
 
 /* ADVANTAGES */
-#vantagens {
+#agilidade {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 8%;
+    gap: 60px;
+    position: relative;
+}
+
+#precisao {
     display: flex;
     align-items: center;
     justify-content: space-between;
