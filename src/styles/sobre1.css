@@ -1,7 +1,9 @@
 /* INTRODUCTION */
 #introducao {
     display: flex;
-    justify-content: space-between;
+    align-items: center;   /* Centraliza verticalmente */
+    justify-content: center;
+    padding: 40px 80px;
     min-height: calc(507.4px - 102px);
 }
 
@@ -27,11 +29,14 @@
 }
 
 #introducao .imagem {
-    margin-left: 80px;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #introducao .imagem img {
-    max-width: 80%;
+    max-width: 78%;
     height: auto;
 }
 
