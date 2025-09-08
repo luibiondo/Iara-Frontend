@@ -18,12 +18,14 @@
     font-size: 3rem;
     color: #12131A;
     opacity: 0.82;
+    text-align: justify;
 }
 
 #introducao p {
     font-size: 1.3rem;
     color: #333333;
     opacity: 0.5;
+    text-align: justify;
 }
 
 #introducao .imagem img {
@@ -46,7 +48,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    padding: 60px 5%;
+    padding: 10px 5%;
 }
 
 #funcionalidades .imagem {
@@ -100,6 +102,7 @@
     font-size: 1.3rem;
     color: #333333;
     opacity: 0.5;
+    text-align: justify;
 }
 
 .topico {
@@ -250,11 +253,10 @@
 }
 
 #vantagens .texto-vantagens {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: #333333;
-    opacity: 0.8;
-    line-height: 1.6;
-    max-width: 500px;
+    opacity: 0.5;
+    text-align: justify;
 }
 
 #vantagens .imagem-vantagens {
