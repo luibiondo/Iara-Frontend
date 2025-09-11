@@ -37,3 +37,9 @@ body{
 img{
     user-select: none;
 }
+
+@media screen and (max-width: 1170px) {
+    .mobile_out{
+        display: none;
+    }
+}
