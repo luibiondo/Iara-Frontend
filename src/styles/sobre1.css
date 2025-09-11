@@ -1,7 +1,9 @@
 /* INTRODUCTION */
 #introducao {
     display: flex;
-    justify-content: space-between;
+    align-items: center;   /* Centraliza verticalmente */
+    justify-content: center;
+    padding: 40px 80px;
     min-height: calc(507.4px - 102px);
 }
 
@@ -24,14 +26,18 @@
     font-size: 1.3rem;
     color: #333333;
     opacity: 0.5;
+    text-align: justify;
 }
 
 #introducao .imagem {
-    margin-left: 80px;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #introducao .imagem img {
-    max-width: 80%;
+    max-width: 78%;
     height: auto;
 }
 
@@ -78,6 +84,7 @@
     font-size: 1.3rem;
     color: #333333;
     opacity: 0.5;
+    text-align: justify;
 }
 
 #missao .subtitulo {
@@ -159,6 +166,7 @@
     font-size: 1.3rem;
     color: #333333;
     opacity: 0.5;
+    text-align: justify;
 }
 
 #contato .subtitulo {
