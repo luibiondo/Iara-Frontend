@@ -5,6 +5,27 @@
     font-family: "Poppins", sans-serif;
 }
 
+.btn-sair {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #2E3B84;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 10; /* fica acima de tudo */
+    transition: background-color 0.3s;
+}
+
+.btn-sair:hover {
+    background-color: #1f285e;
+}
+
 body {
     background-color: #E7EBF2;
     display: flex;
@@ -142,5 +163,13 @@ button:hover {
     }
     .left-side {
         margin-bottom: 20px;
+    }
+
+    .btn-sair {
+        top: 12px;
+        left: 12px;
+        padding: 8px 12px;
+        font-size: 0.85rem;
+        gap: 6px;
     }
 }

@@ -6,11 +6,10 @@
 }
 
 .texto {
-    width: 35%;
+    max-width: 35%;
     display: flex;
     flex-direction: column;
     gap: 28px;
-    margin-top: 5%;
     margin: auto;
 }
 
@@ -18,7 +17,6 @@
     font-size: 3rem;
     color: #12131A;
     opacity: 0.82;
-    text-align: justify;
 }
 
 #introducao p {
@@ -40,7 +38,6 @@
     width: 34%;
     height: 60px;
 }
-
 
 /* FEATURES */
 #funcionalidades {
@@ -110,13 +107,12 @@
 }
 
 /* FAQ */
-
-.subtitulo{
+.subtitulo {
     color: #5991B3;
     font-size: 1.2rem;
 }
 
-#faq h2{
+#faq h2 {
     color: #12131A;
     font-size: 2.5rem;
 }
@@ -131,11 +127,7 @@
     justify-content: space-around;
 }
 
-#primeiraColuna {
-    display: flex;
-    flex-direction: column;
-}
-
+#primeiraColuna,
 #segundaColuna {
     display: flex;
     flex-direction: column;
@@ -161,7 +153,6 @@
 .branco h3 {
     color: #12131A;
     font-size: 1.6rem;
-    margin-bottom: 10px;
 }
 
 .branco p {
@@ -169,36 +160,32 @@
     opacity: 0.5;
 }
 
-.azul{
+.azul {
     background-color: #5991B3;
 }
 
-.azul h3{
+.azul h3 {
     font-size: 1.6rem;
     color: #FAFAFA;
-    margin-bottom: 10px;
 }
 
-.azul p{
+.azul p {
     color: #FAFAFA;
 }
 
 /* ADVANTAGES */
-#agilidade {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 80px 8%;
-    gap: 60px;
-    position: relative;
+
+#vantagens{
+    margin-bottom: 80px;
 }
 
+#agilidade,
 #precisao {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 80px 8%;
-    gap: 60px;
+    gap: 0px;
     position: relative;
 }
 
@@ -267,7 +254,6 @@
     align-items: center;
 }
 
-
 #vantagens .titulo-topico {
     display: flex;
     align-items: center;
@@ -294,8 +280,7 @@
 }
 
 /* CTA */
-
-#cta{
+#cta {
     display: flex;
     justify-content: space-around;
     background-color: #313131;
@@ -303,16 +288,16 @@
     max-width: 70%;
     min-height: 500px;
     margin: auto;
-    margin-top: 15%;
-    margin-bottom: 15%;
+    margin-top: 35%;
+    margin-bottom: 35%;
 }
 
-#cta img{
+#cta img {
     width: 500px;
     height: auto;
 }
 
-#texto{
+#texto {
     color: white;
     font-size: 1.5rem;
     text-align: left;
@@ -323,34 +308,99 @@
     padding: 80px;
 }
 
-#cta .btn-principal{
+#cta .btn-principal {
     background-color: #FAFAFA;
     color: #000000;
     cursor: pointer;
-    width: 34%;
+    min-width: 34%;
     height: 60px;
     margin-top: 20px;
 }
-
-
 
 /* ANIMATIONS */
 #btn-principal:hover {
     background-color: #1a1f5f;
 }
 
+/* RESPONSIVE */
 @media screen and (max-width: 1170px) {
     #introducao {
-        min-height: 100%;
-        padding-top: 0px;
-    }
-
-    .imagem {
-        display: none;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 20px;
     }
 
     #btn-principal {
         width: 100%;
+        max-width: 300px;
+        height: 50px;
+        margin: 20px auto 0;
+    }
+
+    #colunas {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #funcionalidades {
+        flex-direction: column;
         align-items: center;
+        text-align: center;
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    #agilidade{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    #precisao{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    #primeiraColuna{
+        margin-bottom: -15px;
+    }
+
+    .texto_responsivo {
+        max-width: 100%;
+        padding: 15px;
+        text-align: center;
+    }
+
+    #cta {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 20px;
+        max-width: 80%;
+        min-height: auto;
+    }
+
+    #cta h2{
+        text-align: center;
+    }
+
+    #texto {
+        padding: 20px;
+        align-items: center;
+    }
+
+    button{
+        border-radius: 5px;
+        padding: 10px;
     }
 }
