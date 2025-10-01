@@ -189,6 +189,10 @@
     position: relative;
 }
 
+#precisao{
+    margin-top: -20%;
+}
+
 #vantagens .conteudo-vantagens {
     flex: 1;
 }
@@ -288,8 +292,8 @@
     max-width: 70%;
     min-height: 500px;
     margin: auto;
-    margin-top: 35%;
-    margin-bottom: 35%;
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
 
 #cta img {
@@ -388,6 +392,8 @@
         padding: 40px 20px;
         max-width: 80%;
         min-height: auto;
+        margin-top: 20%;
+        margin-bottom: 20%;
     }
 
     #cta h2{
@@ -402,5 +408,9 @@
     button{
         border-radius: 5px;
         padding: 10px;
+    }
+
+    #precisao{
+        margin-top: 5%;
     }
 }

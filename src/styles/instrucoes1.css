@@ -86,7 +86,7 @@
 }
 
 .etapa{
-    margin-bottom: 50px;
+    margin-bottom: 200px;
 }
 
 /* USERS */ 
@@ -137,8 +137,8 @@
     max-width: 70%;
     min-height: 500px;
     margin: auto;
-    margin-top: 35%;
-    margin-bottom: 35%;
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
 
 #cta img {
@@ -214,11 +214,31 @@
     }
 
     #todos_usuarios{
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        width: 100%;
-        padding: 40px 20px;
+        display: grid;
+        grid-template-areas: 
+            "usuario1 usuario2"
+            "usuario3 usuario4";
+        
+    }
+
+    #todos_usuarios #usuario1{
+        grid-area: usuario1;
+    }
+
+    #todos_usuarios #usuario2{
+        grid-area: usuario2;
+    }
+
+    #todos_usuarios #usuario3{
+        grid-area: usuario3;
+    }
+
+    #todos_usuarios #usuario4{
+        grid-area: usuario4;
+    }
+
+    .etapa{
+        margin-bottom: 50px;
     }
 
     #cta {
@@ -228,6 +248,8 @@
         padding: 40px 20px;
         max-width: 80%;
         min-height: auto;
+        margin-top: 5%;
+        margin-bottom: 20%;
     }
 
     #cta h2{

@@ -53,22 +53,22 @@
 
 /* ANIMATIONS */
 #todas_colunas ul li a:hover {
-    color: #2a5bd7; /* azul elegante no hover */
+    color: #2a5bd7;
 }
 
 #todas_colunas .coluna ul li a:hover {
-    color: #2a5bd7; /* azul elegante no hover */
+    color: #2a5bd7;
 }
 
 #todas_colunas ul li img {
     width: 20px;
     height: 20px;
     flex-shrink: 0;
-    transition: transform 0.3s ease; /* animação ao passar o mouse */
+    transition: transform 0.3s ease;
 }
 
 #todas_colunas ul li a:hover img {
-    transform: scale(1.1); /* ícone cresce levemente no hover */
+    transform: scale(1.1); 
 }
 
 /* RESPONSIVITY */
@@ -76,5 +76,10 @@
     #todas_colunas{
         flex-direction: column;
         gap: 20px;
+        margin-left: 60px;
+    }
+
+    .coluna{
+        align-self: start;
     }
 }
