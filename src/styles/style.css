@@ -34,8 +34,22 @@ a{
     transition: background-color .3s ease;
 }
 
-.btn-default:hover{
+.btn-default:hover, #btn-principal:hover{
     background-color: #2d6689;
+}
+
+#btn-principal {
+    width: 40%;
+    height: 60px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #3B779B;
+    color: #FAFAFA;
+    border-radius: 12px;
+    padding: 10px 44px;
+    cursor: pointer;
+    transition: background-color .3s ease;
 }
 
 img{

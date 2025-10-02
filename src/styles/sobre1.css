@@ -38,13 +38,6 @@
     height: auto;
 }
 
-#btn-principal {
-    background-color: #2B3078;
-    color: #FAFAFA;
-    cursor: pointer;
-    width: 34%;
-    height: 60px;
-}
 
 /* MISSION */
 #missao {
@@ -213,12 +206,7 @@
 }
 
 
-
-/* ANIMATIONS */
-#btn-principal:hover {
-    background-color: #1a1f5f;
-}
-
+/* REPONSIVITY */
 @media screen and (max-width: 1170px) {
     #introducao {
         flex-direction: column;
