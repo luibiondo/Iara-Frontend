@@ -18,3 +18,9 @@ window.addEventListener("scroll", () => {
     }
 });
 
+
+// Evento de mudar campo filtro
+const campoSelect = document.getElementById("campoFiltro");
+
+
+
